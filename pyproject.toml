@@ -40,3 +40,7 @@ Issues = "https://github.com/yourusername/modeldebug/issues"
 
 [tool.setuptools.packages.find]
 include = ["modeldebug*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
